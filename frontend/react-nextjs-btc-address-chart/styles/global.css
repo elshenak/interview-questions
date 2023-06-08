@@ -1,6 +1,6 @@
-@import 'tailwindcss/base';
-@import 'tailwindcss/components';
-@import 'tailwindcss/utilities';
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
 
 html,
 body {
@@ -28,4 +28,8 @@ a:hover {
 img {
   max-width: 100%;
   display: block;
+}
+
+.btn {
+  @apply bg-green-600 hover:bg-green-700 text-black font-bold rounded text-xs w-10 h-5 text-center align-bottom;
 }
